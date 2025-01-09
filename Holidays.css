@@ -117,6 +117,7 @@ ol{
     padding-bottom: 20px;
     text-align: center;
     color:coral;
+    
  }
  .ht{
     font-size: 28px;
@@ -127,11 +128,11 @@ ol{
  }
  .ip{
     display: flex;
-    gap: 20px;
+    gap: 30px;
  }
  .cd{
     display: flex;
-    gap: 20px;
+    gap: 30px;
  }
  .fc{
     font-size: 20px;
@@ -176,7 +177,7 @@ ol{
    background-color: #35424a;
    border-radius: 50px;
    padding: 15px;
-   height: 400px;
+   height: 410px;
    width: 400px;
    justify-items: center;
  }
@@ -432,4 +433,9 @@ ul{
 .oo{
    font-size: 30px;
    padding: 10px;
+}
+.papa{
+    color: white;
+    text-align: center;
+    font-size: 30px;
 }
