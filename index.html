@@ -13,37 +13,44 @@
     
     <header>
                 <img src="./Images/secondmosque.jpg" alt="" width="150px" height="80px">
-        <nav>
-            <ol>
+
+
+                <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        <nav id="nav">
+            <ol> 
+                <li><i class="fa-solid fa-xmark" onclick="hidemenu()"></i></li>
                 <li><a class="c" href="index.html">Home</a></li>
-                <li><a class="c" href="About.html">About</a></li>
-                <li><a class="c" href="Contact.html">Contact</a></li>
-                <li><a class="c" href="Services.html">Services</a></li>
-                <li><a class="c" href="Blog.html">Blog</a></li>
+                <li><a class="c" href="about.html">About</a></li>
+                <li><a class="c" href="contact.html">Contact</a></li>
+                <li><a class="c" href="services.html">Services</a></li>
+                <li><a class="c" href="blog.html">Blog</a></li>
             </ol>
         </nav>      
-    </header>
+    </header>   
 
 <section class="firstsection">
-    <div class="firstdiv">
-            <h1 class="m"> Hello,</h1>
-            <h1 class="p"> Welcome to DAARUL BAYAAN LIT-TA'LEEMIL ISLAAMIY WAL A'ROBIY </h1>
-            <p class="f"> Ladies and Gentlemens, Boys and Girls, You are WELCOME </p>
-    </div>
-        <div>
-            <img class=" pnj" src="./Images/firstmosque.jpg" alt="" width="350px" height="500px">
+    
+        <div class="yazid">
+            <div>
+                <h1 class="m"> Hello,</h1>
+                <h1 class="p"> Welcome to DAARUL BAYAAN LIT-TA'LEEMIL ISLAAMIY WAL A'ROBIY </h1>
+                <p class="f"> Ladies and Gentlemen,You are WELCOME </p>
             </div>
+            <div>
+                <img class=" pnj" src="./Images/firstmosque.jpg" alt="">
+                </div>
+        </div>
 </section>
 
 <section class="secondsection">
         <h1 class="y"> INDICATION </h1>
 <div class="seconddiv">
     <div class="fh">
-        <img src="./Images/MAP.jpg" alt="" width="570px" height="400px">
+        <img src="./Images/MAP.jpg" alt="" width="100%">
         <p class="th"> This is the MAP which can indicate you the road </p>
 </div>
     <div class="fh">
-        <img src="./Images/pf.jpg" alt="" width="570px" height="400px">
+        <img src="./Images/pf.jpg" alt="" width="100%">
         <p class="th"> This the picture of coconut tree which you will see on the side of this school </p>
     </div>
 </div>
@@ -57,50 +64,38 @@
 
 <footer class="foot">
     <div class="fk">
-            <div>
-                <div>
-                    <img src="./Images/pi.jpeg" alt="" width="500px" height="300px">
-                </div>
-                <h1 class="oo"> Learn Quranic School Online </h1>
-                <i class="fa-brands fa-square-facebook"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-twitter"></i>
-               <i class="fa-solid fa-house"></i>
-            </div>
-
-        <div>  
-                <h1 class="too"> Important Pages</h1>
-            <nav>
-                <ul>
-                    <li><a class="b" href="Home.html">Home</a></li>
-                    <li><a class="b" href="About.html">About</a></li>
-                    <li><a class="b" href="Contact.html">Contact</a></li>
-                    <li><a class="b" href="Services.html">Services</a></li>
-                    <li><a class="b" href="Blog.html">Blog</a></li>
-                </ul>
-            </nav> 
-        </div>
-
-        <div>
-            <h1 class="too"> Our Courses </h1>
-            <p class="too"> WALEMATUL-QUR'AN </p>
-            <p class="too"> CHARADATUL-QUR'AN </p>
-            <p class="too"> MOFTI </p>
-            <p class="too"> ISLAMIC RESEARCHER </p>
-            <p class="too"> ISLAMIC SCIENTIST </p>
-            <p class="too"> ISLAMIC TRANSLATOR </p>
-            <p class="too"> ISLAMIC JOURNALIST </p>
-            <p class="too"> ISLAMIC SCHOLAR </p>
-            <p class="too"> CALLIGRAPHER  </p>
-        </div>
+                     <img class="kosim" src="./Images/pi.jpeg" width="400px" height="200px">
+  
+    <nav>
+        <ul>
+            <li><a class="b" href="index.html">Home</a></li>
+            <li><a class="b" href="About.html">About</a></li>
+            <li><a class="b" href="Contact.html">Contact</a></li>
+            <li><a class="b" href="Services.html">Services</a></li>
+            <li><a class="b" href="Blog.html">Blog</a></li>
+        </ul>
+    </nav> 
+</div>
+    <div>
+        <h1 class="oo"> Learn Quranic School Online </h1>
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+       <i class="fa-solid fa-house"></i>
     </div>
     <p class="papa"> &copy; Designed by AKANNI BKR 2025 </p>
-
 </footer>
 
 
 
-
-
 </body>
+<script>
+        function showmenu() {
+        document.getElementById("nav").style.right = "0%";
+    }
+    function hidemenu() {
+        document.getElementById("nav").style.right = "-50%";
+    }
+
+</script>
 </html>

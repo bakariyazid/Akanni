@@ -2,24 +2,25 @@
    margin: 0;
 }
 header{
-   
-    background-color: aliceblue;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 7%;
-    padding-right: 7%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-    align-items: center;
+   background-color: aliceblue;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 7%;
+   padding-right: 7%;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   position: sticky;
+   top: 0;
+   z-index: 1;
 }
-
+header .fa-solid{
+  display: none;
+}
 ol{
-    list-style: none;
-    display: flex;
-    gap: 40px;
+   gap: 20px;
+   display: flex;
+   list-style: none;
 }
 .c{
     color: black;
@@ -33,24 +34,29 @@ ol{
     padding-left: 7%;
     padding-right: 7%;
     padding-top: 30px;
-    padding-bottom: 30px;
-    display: flex;
-    justify-content: space-between;
-      
+    padding-bottom: 30px; 
+}
+.yazid{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
 }
 .f{padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 20px;
 }
 .m{
     color: blue;
-    font-size: 50px;
+    font-size: 30px;
 }
 .p{
-    font-size: 50px; 
-    width: 80%;
+    font-size: 30px; 
+    width: 100%;
 }
 .pnj{
+   width: 62%;
+   height: 500px;
     border-radius: 50px;
+    margin-left: 38%;
 }
 .secondsection{
     background-color: burlywood;
@@ -62,7 +68,8 @@ ol{
 .seconddiv{
     padding-top: 30px;
     padding-bottom: 30px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
 .y{
@@ -97,9 +104,16 @@ ol{
     padding-left: 7%;
     padding-right: 7%;
 }
-.back{
-    display:flex;
-    gap: 20px;
+.ramdane{
+   background-color: blanchedalmond;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.ac{
+   width: 80%;
 }
  .ss{
     padding-top: 20px;
@@ -107,32 +121,52 @@ ol{
     text-align: center;
  }
  .sc{
-    padding-bottom: 30px;
-    text-align: center;
-    color:coral;
-    font-size:20px;
- }
- .in{
-    padding-top: 20px;
+   padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
     color:coral;
-    
+    font-size: 50px;
+ } 
+ .pascal{
+   padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    color:coral;
+    font-size: 50px;
  }
+ .in{
+   padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    color:coral;
+    font-size: 50px;
+ }
+ 
  .ht{
-    font-size: 28px;
+    font-size: 20px;
+    width: 50%;
  }
  span{
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     color: blue;
  }
  .ip{
-    display: flex;
-    gap: 30px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   gap: 15px;
+ }
+ .awal{
+   width: 100%;
+   height: 250px;
  }
  .cd{
-    display: flex;
-    gap: 30px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   gap: 15px;
+ }
+ .faw{
+   width: 100%;
+   height: 250px;
  }
  .fc{
     font-size: 20px;
@@ -174,19 +208,34 @@ ol{
     justify-content: space-between;
  }
  .fone{
+   
    background-color: #35424a;
    border-radius: 50px;
    padding: 15px;
-   height: 410px;
-   width: 400px;
+   width: 65%;
    justify-items: center;
  }
+ .akanwo{
+   display: flex;
+   gap: 20px;
+   padding: 12px;
+}
+ .ki{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 20px;
+   background-color: beige;
+   padding-left: 7%;
+   padding-right: 7%;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
  .ai{
    color: white;
    padding: 10px;
  }
  .h{
-    color:  darkgrey;
+    color: whitesmoke;
  }
  .tensection{
    background-image: url(./Images/contact\ us.jpeg);
@@ -216,7 +265,7 @@ ol{
     padding-bottom: 10px;
     padding-left: 7%;
     padding-right: 7%;
-    font-size: 25px;
+    font-size: 22px;
  }
  .lm{
     padding: 15px;
@@ -244,6 +293,7 @@ ol{
    border-radius: 50px;
    width: 350px;
 }
+
 .iv{
    padding-left: 7%;
    padding-right: 7%;
@@ -256,34 +306,14 @@ ol{
    gap: 20px;
    padding: 10px;
 }
-.fa-phone{
+.fa-phone, .fa-envelope, .fa-location-crosshairs, .fa-square-whatsapp, .fa-square-facebook{
    font-size: 30px;
+   
 }
-.fa-envelope{
-   font-size: 30px;
-}
-.fa-location-crosshairs{
-   font-size: 30px;
-}
-.fa-square-whatsapp{
-   font-size: 30px;
-}
-.fa-square-facebook{
-   font-size: 30px;
-}
+
 .re{
    font-family: 'Arial';
    font-size: 20px;
-}
-.ki{
-   display: flex;
-   gap: 20px;
-   background-color: beige;
-   justify-content: center;
-   padding-left: 7%;
-   padding-right: 7%;
-   padding-top: 20px;
-   padding-bottom: 20px;
 }
 .own{
    background-color: #35424a;
@@ -295,28 +325,40 @@ ol{
    padding-bottom: 20px;
 
 }
-.fa-instagram{
-   font-size: 30px;
-   padding: 10px;
-}
-.fa-twitter{
-   font-size: 30px;
-   padding: 10px;
-}
-.fa-house{
+.fa-instagram, .fa-house, .fa-twitter{
    font-size: 30px;
    padding: 10px;
 }
 .o4{
-   display: flex;
-   gap: 20px;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 30px;
    padding-top: 20px;
    padding-bottom: 20px;
    font-size: 20px;
 }
+.malik{
+   border-radius: 50px;
+   border-style: groove;
+   border-color: #35424a;
+   width: 100%;
+   height: 400px;
+}
 .bac{
    padding: 15px;
 }
+.aremou{
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.bakari{
+   display: grid;
+   grid-template-columns: 1fr 1fr  1fr  1fr 1fr 1fr;
+   gap: 20px;
+}
+
 .gh{
    background-color: rgba(197, 116, 18, 0.274);
    padding-left: 7%;
@@ -397,17 +439,40 @@ ol{
    padding-bottom: 20px;
 }
 .tr{
-   display: flex;
-   gap: 20px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   gap: 15px;
+}
+.ikmal{
+   width: 100%;
+   height: 200px;
 }
 .win{
    font-size: 18px;
 }
+
+.foot{ 
+   background-color: yellowgreen;
+   padding-left: 7%;
+   padding-right: 7%;
+   padding-top: 20px;
+   padding-bottom: 20px; 
+}
+ .fk{
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+} 
+ul{
+   gap: 20px;
+   display: flex;
+   list-style: none;
+}
 .b{
-   color: black;
    text-decoration: none;
-   color: white;
-   font-size: 30px;
+   font-size: 20px;
+   color: black;
 }
 .b:hover{
    color: peru;
@@ -415,20 +480,10 @@ ol{
 ul{
    list-style: none;
 }
-.fk{
-  display: flex;
-  justify-content: space-between;
-}
-.foot{
-   background-color: black;
-   color: white;
-   padding-left: 7%;
-   padding-right: 7%;
-   padding-top: 20px;
-   padding-bottom: 20px;
-}
+
 .too{
    padding: 10px;
+    font-size: 20px;
 }
 .oo{
    font-size: 30px;
@@ -438,4 +493,149 @@ ul{
     color: white;
     text-align: center;
     font-size: 30px;
+}
+
+@media (max-width: 768px) {
+   header .fa-solid {
+      display: block;
+  }
+
+ header nav {
+      width: 50%;
+      position: fixed;
+      top: 0;
+      height: 100%;
+      right: -50%;
+      transition: 1s;
+  }
+  nav ul {
+   display:flex;
+}
+
+.yazid{
+   display: grid;
+   grid-template-columns: 1fr;
+}
+.seconddiv{
+   display: grid;
+   grid-template-columns: 1fr;
+}
+.thirdsection{
+   font-size: 18px;
+}
+.fk{
+   display: block;
+   flex: wrap;
+ } 
+
+ .ip{
+   display: grid;
+   grid-template-columns: 1fr;
+ }
+ 
+ .in, .pascal{
+    font-size: 30px;
+ }
+ .cd{
+   display: grid;
+   grid-template-columns: 1fr;
+ }
+ .ki{
+ display: grid;
+ grid-template-columns: 1fr;
+}
+.fone{
+   width: 50%;
+   padding-left: 7%;
+   padding-right: 7%;
+}
+.own{
+   font-size: 20px;
+}
+.jl{
+   font-size: 100px; 
+}
+.bakari{
+   display: grid;
+   grid-template-columns: 1fr;
+}
+.o4{
+   display: grid;
+   grid-template-columns: 1fr;
+}
+.tr{
+   display: grid;
+   grid-template-columns: 1fr;
+}
+}
+
+@media (max-width: 992px) {
+   header .fa-solid {
+      display: block;
+  }
+
+ header nav {
+      width: 50%;
+      position: fixed;
+      top: 0;
+      height: 100%;
+      right: -50%;
+      transition: 1s;
+  }
+  nav ul {
+   display:flex;
+}
+.yazid{
+   display: grid;
+   grid-template-columns: 1fr;
+}
+.seconddiv{
+   display: grid;
+   grid-template-columns: 1fr;
+}
+
+.thirdsection{
+   font-size: 19px;
+}
+.fk{
+   display: block;
+   flex: wrap;
+ }  
+ .ip{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+ }
+ .in, .pascal{
+   font-size: 40px;
+}
+.fone{
+   width: 70%;
+}
+.cd{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 15px;
+ }
+.ki{
+display: grid;
+grid-template-columns: 1fr;
+}
+.own{
+   font-size: 25px;
+}
+ .jl{
+   font-size: 150px; 
+} 
+.bakari{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+.o4{
+   display: grid;
+   grid-template-columns: 1fr;
+}
+.tr{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
 }

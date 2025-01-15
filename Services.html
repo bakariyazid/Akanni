@@ -13,25 +13,62 @@
 <body>
     <header>
         <img src="./Images/secondmosque.jpg" alt="" width="150px" height="80px">
-    <nav>
-        <ol>
-             <li><a class="c" href="Home.html">Home</a></li>
-             <li><a class="c" href="About.html">About</a></li>
-             <li><a class="c" href="Contact.html">Contact</a></li>
-             <li><a class="c" href="Services.html">Services</a></li>
-             <li><a class="c" href="Blog.html">Blog</a></li>
-        </ol>
-    </nav>      
-</header>
 
- 
+
+        <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+<nav id="nav">
+    <ol> 
+        <li><i class="fa-solid fa-xmark" onclick="hidemenu()"></i></li>
+        <li><a class="c" href="index.html">Home</a></li>
+        <li><a class="c" href="about.html">About</a></li>
+        <li><a class="c" href="contact.html">Contact</a></li>
+        <li><a class="c" href="services.html">Services</a></li>
+        <li><a class="c" href="blog.html">Blog</a></li>
+    </ol>
+</nav>      
+</header>   
+<section class="aremou">
+    <p class="sc"> OUR PRODUCT </p>
+    <div class="bakari">
+        <div class="kc">
+            <img class="know" src="./Images/Coran5.jpg" alt="">
+            <p class="ac"> Tajweed Qur'an (Whole Qur'an, size: 7*9.75) by Dar Al-Ma'arifah(2011) </p>
+        </div>
+
+        <div class="kc">
+            <img class="know" src="./Images/Coran2.jpg" alt="">
+            <p class="ac"> Azuregreen Quran Holder Book Stand Rihal Rehal Wooden Carved Eid </p>
+        </div>
+
+        <div class="kc">
+           <img class="know" src="./Images/Coran6.jpg" alt="">
+           <p class="ac"> Tajweed Qur'an (Whole Quraan, Medium Size 5.5"*8") Dar Al Marifah </p>
+        </div>
+        
+        <div class="kc">
+            <img class="know" src="./Images/download3new.jpg" alt="">
+            <p class="ac">  Differents Taohid books in differents sizes and colors </p>
+        </div>
+
+        <div class="kc">
+            <img class="know" src="./Images/Coran3.jpg" alt="">
+            <p class="ac"> Imam Nawawi's renowned '40 Hadith' serves as a concise
+             roadmap to the core principles of Islam.</p>
+        </div>
+        
+        <div class="kc">
+            <img class="know" src="./Images/new coran.jpg" alt="">
+            <p class="ac"> Noble Quran Arabic Text English Transliteration Green Roman Script Translation  </p>
+        </div>
+</div>
+</section>
 
 <section class="gh">
         <h1 class="im"> OUR TIME TABLE </h1>
         <h1 class="ph"> Quran Memorization Timetable and Schedule - Detailed Guide </h1>
 <div class="o4"> 
         <div class="osection"> 
-            <img src="./Images/memo.jpg" alt="" width="600px" height="400px">
+            <img class="malik" src="./Images/memo.jpg" alt="">
         </div>
     <div>
         <p class="bac"> Quran Memorization Timetable: Ever wondered how long it takes 
@@ -213,46 +250,37 @@
 
 <footer class="foot">
     <div class="fk">
-            <div>
-                <div>
-                    <img src="./Images/pi.jpeg" alt="" width="500px" height="300px">
-                </div>
-                <h1 class="oo"> Learn Quranic School Online </h1>
-                <i class="fa-brands fa-square-facebook"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-twitter"></i>
-               <i class="fa-solid fa-house"></i>
-            </div>
-
-        <div>  
-                <h1 class="too"> Important Pages</h1>
-            <nav>
-                <ul>
-                    <li><a class="b" href="Home.html">Home</a></li>
-                    <li><a class="b" href="About.html">About</a></li>
-                    <li><a class="b" href="Contact.html">Contact</a></li>
-                    <li><a class="b" href="Services.html">Services</a></li>
-                    <li><a class="b" href="Blog.html">Blog</a></li>
-                </ul>
-            </nav> 
-        </div>
-
-        <div>
-            <h1 class="too"> Our Courses </h1>
-            <p class="too"> WALEMATUL-QUR'AN </p>
-            <p class="too"> CHARADATUL-QUR'AN </p>
-            <p class="too"> MOFTI </p>
-            <p class="too"> ISLAMIC RESEARCHER </p>
-            <p class="too"> ISLAMIC SCIENTIST </p>
-            <p class="too"> ISLAMIC TRANSLATOR </p>
-            <p class="too"> ISLAMIC JOURNALIST </p>
-            <p class="too"> ISLAMIC SCHOLAR </p>
-            <p class="too"> CALLIGRAPHER  </p>
-        </div>
+                     <img class="kosim" src="./Images/pi.jpeg" width="400px" height="200px">
+  
+    <nav>
+        <ul>
+            <li><a class="b" href="index.html">Home</a></li>
+            <li><a class="b" href="About.html">About</a></li>
+            <li><a class="b" href="Contact.html">Contact</a></li>
+            <li><a class="b" href="Services.html">Services</a></li>
+            <li><a class="b" href="Blog.html">Blog</a></li>
+        </ul>
+    </nav> 
+</div>
+    <div>
+        <h1 class="oo"> Learn Quranic School Online </h1>
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+       <i class="fa-solid fa-house"></i>
     </div>
     <p class="papa"> &copy; Designed by AKANNI BKR 2025 </p>
 </footer>
-
-
+        
+        
 </body>
+<script>
+        function showmenu() {
+        document.getElementById("nav").style.right = "0%";
+    }
+    function hidemenu() {
+        document.getElementById("nav").style.right = "-50%";
+    }
+
+</script>
 </html>

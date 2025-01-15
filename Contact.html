@@ -13,16 +13,20 @@
 <body>
     <header>
         <img src="./Images/secondmosque.jpg" alt="" width="150px" height="80px">
-    <nav>
-        <ol>
-             <li><a class="c" href="Home.html">Home</a></li>
-             <li><a class="c" href="About.html">About</a></li>
-             <li><a class="c" href="Contact.html">Contact</a></li>
-             <li><a class="c" href="Services.html">Services</a></li>
-             <li><a class="c" href="Blog.html">Blog</a></li>
-        </ol>
-    </nav>      
-</header>
+
+
+        <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+<nav id="nav">
+    <ol> 
+        <li><i class="fa-solid fa-xmark" onclick="hidemenu()"></i></li>
+        <li><a class="c" href="index.html">Home</a></li>
+        <li><a class="c" href="about.html">About</a></li>
+        <li><a class="c" href="contact.html">Contact</a></li>
+        <li><a class="c" href="services.html">Services</a></li>
+        <li><a class="c" href="blog.html">Blog</a></li>
+    </ol>
+</nav>      
+</header>   
 
 <section class="onesection">
 <div class="pre">
@@ -136,19 +140,30 @@
 <form class="fone">
     <h1 class="ai"> Mailto Form</h1>
 	<form action="mailto:your-email@example.com" method="post" enctype="text/plain">
-    <p class="ci"> FILL YOUR FORM HERE </p><br>      
-    <input type="text" placeholder="First Name">&nbsp; 
-    <input type="text" placeholder="last Name"><br>  
-    <br><input type="number" placeholder="Age">&nbsp;
-    <input type="email" placeholder="Email Address"><br>
-    <br><input type="number" placeholder="Your Phone">&nbsp;
-    <input type="text" placeholder="Street"> <br>
-    <br><input type="text" placeholder="Nationality">&nbsp;
+    <p class="ci"> FILL YOUR FORM HERE </p>
+
+        <div class="akanwo">
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="last Name">
+        </div>  
+
+        <div class="akanwo">
+            <input type="number" placeholder="Age">
+            <input type="email" placeholder="Email Address">
+        </div>
+
+        <div class="akanwo">
+            <input type="number" placeholder="Your Phone">
+            <input type="text" placeholder="Street">
+        </div>
+
+        <div class="akanwo">
+            <input type="text" placeholder="Nationality">
 
 <select>
     <option> Select </option>
     <option value=" WALEMATUL-QUR'AN ">  WALEMATUL-QUR'AN </option>
-    <option value=" CHARADATUL-QUR'AN "> CHARADATUL-QUR'AN </option>
+    <option value=" CHARADATUL-QUR'AN "> HAFIZUL-QUR'AN </option>
     <option value=" ARABIC TEACHER "> ARABIC TEACHER </option>
     <option value=" MOFTI "> MOFTI </option>
     <option value=" ISLAMIC RESEARCHER "> ISLAMIC RESEARCHER </option>
@@ -158,6 +173,7 @@
     <option value=" Islamic scholar "> ISLAMIC SCHOLAR </option>
     <option value=" Calligrapher "> CALLIGRAPHER </option>
 </select> 
+</div>
 <div>
     <br> <textarea class="gi">  PUT YOUR MESSAGE </textarea><br>
     <button class="gl"> Send </button>
@@ -206,7 +222,7 @@
                 <i class="fa-solid fa-location-crosshairs"></i>
             <div class="ml">
                 <p class="h"> Location </p>
-                <pclass="re"> Porto-Novo </p>
+                <p class="re"> Porto-Novo </p>
             </div>
         </div>
 
@@ -237,46 +253,38 @@
  
  <footer class="foot">
     <div class="fk">
-            <div>
-                <div>
-                    <img src="./Images/pi.jpeg" alt="" width="500px" height="300px">
-                </div>
-                <h1 class="oo"> Learn Quranic School Online </h1>
-                <i class="fa-brands fa-square-facebook"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-twitter"></i>
-               <i class="fa-solid fa-house"></i>
-            </div>
-
-        <div>  
-                <h1 class="too"> Important Pages</h1>
-            <nav>
-                <ul>
-                    <li><a class="b" href="Home.html">Home</a></li>
-                    <li><a class="b" href="About.html">About</a></li>
-                    <li><a class="b" href="Contact.html">Contact</a></li>
-                    <li><a class="b" href="Services.html">Services</a></li>
-                    <li><a class="b" href="Blog.html">Blog</a></li>
-                </ul>
-            </nav> 
-        </div>
-
-        <div>
-            <h1 class="too"> Our Courses </h1>
-            <p class="too"> WALEMATUL-QUR'AN </p>
-            <p class="too"> CHARADATUL-QUR'AN </p>
-            <p class="too"> MOFTI </p>
-            <p class="too"> ISLAMIC RESEARCHER </p>
-            <p class="too"> ISLAMIC SCIENTIST </p>
-            <p class="too"> ISLAMIC TRANSLATOR </p>
-            <p class="too"> ISLAMIC JOURNALIST </p>
-            <p class="too"> ISLAMIC SCHOLAR </p>
-            <p class="too"> CALLIGRAPHER  </p>
-        </div>
+                     <img class="kosim" src="./Images/pi.jpeg" width="400px" height="200px">
+  
+    <nav>
+        <ul>
+            <li><a class="b" href="index.html">Home</a></li>
+            <li><a class="b" href="About.html">About</a></li>
+            <li><a class="b" href="Contact.html">Contact</a></li>
+            <li><a class="b" href="Services.html">Services</a></li>
+            <li><a class="b" href="Blog.html">Blog</a></li>
+        </ul>
+    </nav> 
+</div>
+    <div>
+        <h1 class="oo"> Learn Quranic School Online </h1>
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+       <i class="fa-solid fa-house"></i>
     </div>
     <p class="papa"> &copy; Designed by AKANNI BKR 2025 </p>
 </footer>
+    
 
 
 </body>
+<script>
+        function showmenu() {
+        document.getElementById("nav").style.right = "0%";
+    }
+    function hidemenu() {
+        document.getElementById("nav").style.right = "-50%";
+    }
+
+</script>
 </html>
