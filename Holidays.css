@@ -206,7 +206,7 @@ ol{
       padding-bottom: 10px;
       /* padding-left: 10px;
       padding-right: 10px; */
-      width: 35%;
+      width: 30%;
    }
    .alao{
       display: flex;
@@ -515,7 +515,13 @@ header li{
    font-size: 10px;
 }
 .fone{
-   width: 100%;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   width: 90%;
+}
+.akanwo{
+   display: flex;
+   gap: 5px;
 }
 .pre{
    font-size: 10px;
@@ -596,9 +602,9 @@ header li{
    display: grid;
    grid-template-columns: 1fr;
 }
-.fone{
+/* .fone{
   width: 40%;
-} 
+}  */
 .thirdsection{
    font-size: 15px;
 }
