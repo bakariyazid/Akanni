@@ -37,26 +37,20 @@ ol{
     padding-bottom: 30px; 
 }
 .yazid{
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-}
-.f{padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 20px;
+   display: flex;
+   justify-content: space-between;
 }
 .m{
     color: blue;
-    font-size: 30px;
 }
-.p{
-    font-size: 30px; 
-    width: 100%;
+.bel{
+   width: 60%;
+   font-size: 20px;
 }
+
 .pnj{
-   width: 62%;
-   height: 500px;
-    border-radius: 50px;
-    margin-left: 38%;
+   width: 100%;
+   border-radius: 50px;
 }
 .secondsection{
     background-color: burlywood;
@@ -94,8 +88,8 @@ ol{
     font-size: 20px;
 }
 .pg{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .Pi{
     background-color: blanchedalmond;
@@ -144,7 +138,6 @@ ol{
  
  .ht{
     font-size: 20px;
-    width: 50%;
  }
  span{
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
@@ -180,15 +173,15 @@ ol{
     font-size: 20px;
  }
  .yh{
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
  }
  .tb{
    font-size: 22px;
  }
  .hy{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
  }
  .secondsection{
@@ -201,39 +194,37 @@ ol{
     color: transparent;
     -webkit-text-stroke: 2px;
     -webkit-text-stroke-color: black;
-    font-size: 200px; 
+    font-size: 100px; 
  }
  .World{
     display: flex;
     justify-content: space-between;
  }
  .fone{
-   
-   background-color: #35424a;
-   border-radius: 50px;
-   padding: 15px;
-   width: 65%;
-   justify-items: center;
- }
+      background-color: #BD9C68;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      /* padding-left: 10px;
+      padding-right: 10px; */
+      width: 35%;
+   }
+   .alao{
+      display: flex;
+      justify-content: center;
+      background-color: gainsboro;
+      padding-top: 10px;
+      padding-bottom: 10px;
+   }
  .akanwo{
    display: flex;
-   gap: 20px;
-   padding: 12px;
+   gap: 10px;
+   justify-content: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   /* padding-left: 10px;
+   padding-right: 10px; */
 }
- .ki{
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   gap: 20px;
-   background-color: beige;
-   padding-left: 7%;
-   padding-right: 7%;
-   padding-top: 20px;
-   padding-bottom: 20px;
-}
- .ai{
-   color: white;
-   padding: 10px;
- }
+ 
  .h{
     color: whitesmoke;
  }
@@ -248,8 +239,17 @@ ol{
    padding-bottom: 40px;
  }
  .gi{
-   padding-bottom: 50px;
-   padding-right: 200px;
+   padding-bottom: 30px;
+   padding-right: 190px;
+ }
+ .dell{
+      display: flex;
+      justify-content: center;
+      padding-bottom: 10px;
+ }
+ .lay{
+   display: flex;
+   justify-content: center;
  }
  .gl{
     background-color: #ed4a18;
@@ -285,15 +285,6 @@ ol{
    padding: 10px;
    font-size: 20px;
 }
-.ci{
-   background-color: rgba(233, 36, 22, 0.863);
-   color: wheat;
-   padding: 15px;
-   font-size: 20px;
-   border-radius: 50px;
-   width: 350px;
-}
-
 .iv{
    padding-left: 7%;
    padding-right: 7%;
@@ -324,10 +315,6 @@ ol{
    padding-top: 20px;
    padding-bottom: 20px;
 
-}
-.fa-instagram, .fa-house, .fa-twitter{
-   font-size: 30px;
-   padding: 10px;
 }
 .o4{
    display: grid;
@@ -451,36 +438,31 @@ ol{
    font-size: 18px;
 }
 
-.foot{ 
-   background-color: yellowgreen;
+
+footer{
+   background-color: bisque;
    padding-left: 7%;
    padding-right: 7%;
+}
+.jtm{
    padding-top: 20px;
-   padding-bottom: 20px; 
+   text-align: center;
 }
- .fk{
-  display: flex;
-  gap: 20px;
-  justify-content: space-between;
-  align-items: center;
-} 
 ul{
-   gap: 20px;
-   display: flex;
    list-style: none;
-}
-.b{
-   text-decoration: none;
    font-size: 20px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   gap: 20px;
+} 
+.ll{
    color: black;
-}
-.b:hover{
-   color: peru;
-}
-ul{
-   list-style: none;
+   text-decoration: none;   
 }
 
+.ll:hover{
+   color: peru;
+}
 .too{
    padding: 10px;
     font-size: 20px;
@@ -501,32 +483,57 @@ ul{
   }
 
  header nav {
-      width: 50%;
+      width: 70%;
       position: fixed;
       top: 0;
       height: 100%;
       right: -50%;
       transition: 1s;
   }
-  nav ul {
-   display:flex;
+  nav ol {
+   display:block;
+}
+header li{
+   padding: 5px;
 }
 
 .yazid{
-   display: grid;
-   grid-template-columns: 1fr;
+   display: block;
+}
+.bel{
+   width: 25%;
+   font-size: 10px;
 }
 .seconddiv{
    display: grid;
    grid-template-columns: 1fr;
 }
-.thirdsection{
-   font-size: 18px;
+.y{
+   font-size: 30px;
 }
-.fk{
-   display: block;
-   flex: wrap;
- } 
+.thirdsection{
+   font-size: 10px;
+}
+.fone{
+   width: 100%;
+}
+.pre{
+   font-size: 10px;
+}
+.tb{
+   font-size: 12px;
+ }
+
+ .bv{
+   font-size: 12px;
+}
+ ul {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+} 
+ .kosim{
+   width: 50px;
+ }
 
  .ip{
    display: grid;
@@ -534,27 +541,17 @@ ul{
  }
  
  .in, .pascal{
-    font-size: 30px;
+    font-size: 20px;
  }
  .cd{
    display: grid;
    grid-template-columns: 1fr;
  }
- .ki{
- display: grid;
- grid-template-columns: 1fr;
-}
-.fone{
-   width: 50%;
-   padding-left: 7%;
-   padding-right: 7%;
-}
+ 
 .own{
    font-size: 20px;
 }
-.jl{
-   font-size: 100px; 
-}
+
 .bakari{
    display: grid;
    grid-template-columns: 1fr;
@@ -566,6 +563,9 @@ ul{
 .tr{
    display: grid;
    grid-template-columns: 1fr;
+}
+.papa{
+   font-size: 20px;
 }
 }
 
@@ -582,35 +582,52 @@ ul{
       right: -50%;
       transition: 1s;
   }
-  nav ul {
-   display:flex;
+  nav ol {
+   display:block;
 }
 .yazid{
-   display: grid;
-   grid-template-columns: 1fr;
+   display: block;
+}
+.bel{
+      width: 40%;
+      font-size: 15px;
 }
 .seconddiv{
    display: grid;
    grid-template-columns: 1fr;
 }
-
+.fone{
+  width: 40%;
+} 
 .thirdsection{
-   font-size: 19px;
+   font-size: 15px;
 }
-.fk{
-   display: block;
-   flex: wrap;
- }  
+.pre{
+   font-size: 15px;
+}
+.tb{
+   font-size: 18px;
+ }
+ .bv{
+   font-size: 18px;
+}
+ul {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+} 
+ .kosim{
+   width: 70px;
+ }
  .ip{
    display: grid;
    grid-template-columns: 1fr 1fr;
  }
  .in, .pascal{
-   font-size: 40px;
+   font-size: 30px;
 }
-.fone{
-   width: 70%;
-}
+.World{
+   display: block;
+   }
 .cd{
    display: grid;
    grid-template-columns: 1fr 1fr;
@@ -623,9 +640,6 @@ grid-template-columns: 1fr;
 .own{
    font-size: 25px;
 }
- .jl{
-   font-size: 150px; 
-} 
 .bakari{
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
