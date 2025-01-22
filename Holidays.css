@@ -204,8 +204,6 @@ ol{
       background-color: #BD9C68;
       padding-top: 10px;
       padding-bottom: 10px;
-      /* padding-left: 10px;
-      padding-right: 10px; */
       width: 30%;
    }
    .alao{
@@ -221,8 +219,6 @@ ol{
    justify-content: center;
    padding-top: 10px;
    padding-bottom: 10px;
-   /* padding-left: 10px;
-   padding-right: 10px; */
 }
  
  .h{
@@ -602,9 +598,6 @@ header li{
    display: grid;
    grid-template-columns: 1fr;
 }
-/* .fone{
-  width: 40%;
-}  */
 .thirdsection{
    font-size: 15px;
 }
