@@ -173,15 +173,14 @@ ol{
     font-size: 20px;
  }
  .yh{
-    padding-top: 10px;
-    padding-bottom: 10px;
+   padding: 15px;
  }
+ 
  .tb{
    font-size: 22px;
  }
  .hy{
-    padding-top: 10px;
-    padding-bottom: 10px;
+   padding: 10px;
     text-align: center;
  }
  .secondsection{
@@ -200,27 +199,7 @@ ol{
     display: flex;
     justify-content: space-between;
  }
- .fone{
-      background-color: #BD9C68;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      width: 30%;
-   }
-   .alao{
-      display: flex;
-      justify-content: center;
-      background-color: gainsboro;
-      padding-top: 10px;
-      padding-bottom: 10px;
-   }
- .akanwo{
-   display: flex;
-   gap: 10px;
-   justify-content: center;
-   padding-top: 10px;
-   padding-bottom: 10px;
-}
- 
+
  .h{
     color: whitesmoke;
  }
@@ -434,7 +413,6 @@ ol{
    font-size: 18px;
 }
 
-
 footer{
    background-color: bisque;
    padding-left: 7%;
@@ -451,12 +429,11 @@ ul{
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
    gap: 20px;
 } 
-.ll{
+.ci{
    color: black;
-   text-decoration: none;   
+   text-decoration: none;
 }
-
-.ll:hover{
+.ci:hover{
    color: peru;
 }
 .too{
@@ -468,8 +445,10 @@ ul{
    padding: 10px;
 }
 .papa{
-    color: white;
+    color: black;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 30px;
 }
 
@@ -477,7 +456,12 @@ ul{
    header .fa-solid {
       display: block;
   }
-
+.c{
+   color: #f2f2f2;
+   font-size: 30px;
+   border:  #f2f2f2 ;
+   
+}
  header nav {
       width: 70%;
       position: fixed;
@@ -488,17 +472,27 @@ ul{
   }
   nav ol {
    display:block;
+   background-color: #35424a;
 }
 header li{
    padding: 5px;
 }
-
+.yh{
+   padding: 10px;
+   font-size: 18px;
+}
 .yazid{
    display: block;
 }
 .bel{
-   width: 25%;
+   width: 100%;
    font-size: 10px;
+}
+.ml{
+  font-size: 15px;
+}
+.re{
+   font-size: 15px;
 }
 .seconddiv{
    display: grid;
@@ -510,15 +504,7 @@ header li{
 .thirdsection{
    font-size: 10px;
 }
-.fone{
-   padding-top: 5px;
-   padding-bottom: 5px;
-   width: 90%;
-}
-.akanwo{
-   display: flex;
-   gap: 5px;
-}
+
 .pre{
    font-size: 10px;
 }
@@ -551,7 +537,7 @@ header li{
  }
  
 .own{
-   font-size: 20px;
+   font-size: 15px;
 }
 
 .bakari{
@@ -575,6 +561,11 @@ header li{
    header .fa-solid {
       display: block;
   }
+  .c{
+   color: #f2f2f2;
+   font-size: 30px;
+   border:  #f2f2f2 ;
+  }
 
  header nav {
       width: 50%;
@@ -586,14 +577,16 @@ header li{
   }
   nav ol {
    display:block;
+   background-color: #35424a;
 }
 .yazid{
    display: block;
 }
 .bel{
-      width: 40%;
+      width: 100%;
       font-size: 15px;
 }
+
 .seconddiv{
    display: grid;
    grid-template-columns: 1fr;
@@ -637,7 +630,7 @@ display: grid;
 grid-template-columns: 1fr;
 }
 .own{
-   font-size: 25px;
+   font-size: 20px;
 }
 .bakari{
    display: grid;
